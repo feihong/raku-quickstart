@@ -25,6 +25,11 @@ echo "export PATH=$(pwd)/bin/:$(pwd)/share/perl6/site/bin:$(pwd)/share/perl6/ven
 source ~/.bashrc
 ```
 
+## Uninstallation
+
+Run `rm -rf ~/rakudo` and remove the corresponding `export PATH=...` line from your `.bashrc`.
+
+
 ## Commands
 
     raku hello.raku
